@@ -1,0 +1,197 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Autour+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merienda:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Nunito:700' rel='stylesheet' type='text/css'>
+   <title>Crazy Creatures Stage 5</title>
+   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+   <link rel="stylesheet" type="text/css" href="crazy_creatures.css"/>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src=" http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+   <script src="jquery/script_stage5.js"></script>
+    <script src="jquery/jqueryTrees4.js"></script>
+	 <script src="jquery/jqueryDrop.js"></script>
+    <script src="jquery/jqueryBadges.js"></script>
+   <script src="jquery/jqueryMonkeyBounceRight.js"></script>
+   <script src="jquery/jqueryPenguinBounceLeft.js"></script>
+   <script src="jquery/introvalid.js"></script>
+  
+   </head>
+   <!-- most comments explained in intro.html new comments explained -->
+<body onload="display()">
+
+	<div id="mainContainer">
+
+		<div id="penguin_bounce_left">
+		</div>	
+
+	
+		<div id="bonus"><span class="text_yellow_50_bold">Plus 300 Bonus!</span><br />
+		<span class="text_white_45_bold">Press<a href ="crazy_creatures_6.html"> Here </a>for <br />More Bonus Fun!</span></div>
+
+<!-- container for drag and drop puzzle --> 
+		<div id="dragContainer">
+		<!--these are draggable elements -->
+			<div id="drag1">
+				<div id="drag_empty1a"></div>	
+				<div id="drag_empty1b"></div>	
+				<div id="drag_bluebird3" class="bird_feet"></div>	
+				<div id="drag_empty1c"></div>	
+				<div id="drag_empty1d"></div>
+				<div id="drag_elephant2" class="elephant_bodies"></div>
+				<div id="drag_empty1e"></div>
+				<div id="drag_empty1f"></div>
+				<div id="drag_bluebird1" class="bird_heads"></div>	
+				<div id="drag_empty1g"></div>
+				<div id="drag_empty1h"></div>
+			</div>
+
+			<div id="drag2">
+				<div id="drag_empty2a"></div>	
+				<div id="drag_bluebird2" class="bird_bodies"></div>	
+				<div id="drag_empty2b"></div>	
+				<div id="drag_elephant1" class="elephant_heads"></div>
+				<div id="drag_empty2c"></div>	
+			</div>
+
+			<div id="drag3">
+				<div id="drag_empty3a"></div>	
+				<div id="drag_empty3b"></div>	
+				<div id="drag_dog3"  class="dog_feet"></div>
+				<div id="drag_empty3c"></div>	
+				<div id="drag_empty3d"></div>	
+				<div id="drag_elephant3"  class="elephant_feet"></div>	
+				<div id="drag_empty3e"></div>	
+				<div id="drag_empty3f"></div>	
+				<div id="drag_dog2" class="dog_bodies"></div>
+				<div id="drag_empty3g"></div>	
+				<div id="drag_empty3h"></div>	
+				<div id="drag_dog1" class="dog_heads"></div>
+				<div id="drag_empty3i"></div>	
+				<div id="drag_empty3j"></div>
+<!-- end of draggables -->				
+			</div>
+		</div>
+
+		
+			<div id="left_over4">	
+			</div>
+			<div id="left_under4">
+			</div>
+	
+
+		<div id="right">
+			<div id="right_over4">	
+			</div>
+			<div id="right_under4">
+			</div>
+		</div>
+
+	<div id= "container5">
+
+		<div id="banner">		
+		</div>
+
+		<div id="text" class="text_blue_20">
+			You can make your <br />
+			<span class="text_pink_24">CRAZY</span> <span class="text_blue_24">CREATURES </span><br />
+			with the right Answers!<br />
+			<span class="text_red_28"> Drag The Shapes</span><br />
+			<span class="text_red_28">Make 3 Creatures!</span><br />			
+		</div>
+		
+
+			<div id="quiz5">
+<!-- these are droppable elements -->
+				<div id="slides5_container">
+					<div id="slides5">
+						<div id="left1" class="jigsaw_no_border bird_heads_slot">
+						</div>
+						<div id="left2" class="jigsaw_no_border bird_bodies_slot">	
+							<span class="text_brown_24">Drag <br />the <br />shapes!</span>
+						</div>
+						<div id="left3" class="jigsaw_no_border bird_feet_slot">											
+						</div>					
+					</div>
+
+					<div id="stage5_name"><span class="text_blue_24">A BIRD</span></div>
+				</div>
+				
+
+
+				<div id="slides5_container">
+					<div id="slides5">
+						<div id="middle1" class="jigsaw_no_border elephant_heads_slot">
+						</div>
+						<div id="middle2" class="jigsaw_no_border elephant_bodies_slot">
+						<span class="text_brown_24">Drag <br />the <br />shapes!</span>
+						</div>
+						<div id="middle3" class="jigsaw_no_border elephant_feet_slot">					
+						</div>					
+					</div>
+
+					<div id="stage5_name"><span class="text_blue_24">AN ELEPHANT</span></div>
+				</div>
+
+
+				<div id="slides5_container_dog">
+					<div id="slides5">
+						<div id="right1" class="jigsaw_no_border dog_heads_slot">	
+						</div>
+						<div id="right2" class="jigsaw_no_border dog_bodies_slot">
+							<span class="text_brown_24">Drag <br />the <br />shapes!</span>
+						</div>
+						<div id="right3" class="jigsaw_no_border dog_feet_slot">
+						</div>	
+<!-- end of droppable elements -->						
+					</div>	
+
+					<div id="stage5_name_dog"><span class="text_blue_24">A DOG</span></div>
+
+						<div id="stage5_score_dog">
+						<span class="text_blk_30">SCORE</span>
+						</div>
+
+						<div id="score_5">
+							<span class="text_blk_22a"></span>
+						</div>
+
+				</div>
+	
+				
+
+			</div>
+
+
+	<div id="bottom">
+		
+			<div id="badges_text5">
+				<span class="text_blk_22">Add your <span class="text_pink_24">CRAZY</span> 
+				<span class="text_blue_24">CREATURES</span> Here!</span>
+			</div>
+
+			<div id="eight_badges">
+				<div id="badge_1" class="badge"><img src="images/monkey_badge.png"></div>
+					<div id="badge_2" class="badge"><img src="images/octopus_badge.png"></div>
+						<div id="badge_3" class="badge"><img src="images/panda_badge.png"></div>
+							<div id="badge_4" class="badge"><img src="images/penguin_badge.png"></div>
+								<div id="badge_5" class="badge"><img src="images/question_mark4.png"></div>
+									<div id="badge_6" class="badge"><img src="images/question_mark4.png"></div>
+										<div id="badge_7" class="badge"><img src="images/question_mark4.png"></div>
+								
+				
+			
+
+		</div>
+			
+				
+	</div>
+</div>
+
+</div>
+</body>
+</html>
