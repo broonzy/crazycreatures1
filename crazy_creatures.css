@@ -499,6 +499,7 @@ A{
   border-left: 15px solid #cccc00;
   border-right: 15px solid #cccc00;
   background-color: #ffff33;
+  border-radius: 25px;
 }
 #container2 {
   width: 1000px;
@@ -510,6 +511,7 @@ A{
   border-left: 15px solid #DB7093;
   border-right: 15px solid #DB7093;
   background-color: #FFE1FF;
+  border-radius: 25px;
 }
 
 
@@ -523,6 +525,7 @@ A{
   border-left: 15px solid #00B2EE;
   border-right: 15px solid #00B2EE;
   background-color: #98F5FF;
+  border-radius: 25px;
 }
 
 
@@ -536,6 +539,7 @@ A{
   border-left: 15px solid #CDC8B1;
   border-right: 15px solid #CDC8B1;
   background-color: #EEE8CD;
+  border-radius: 25px;
 }
 
 #container5 {
@@ -548,6 +552,7 @@ A{
   border-left: 15px solid #CDC8B1;
   border-right: 15px solid #CDC8B1;
   background-color: #fbc97f;
+  border-radius: 25px;
 }
 
 #container6 {
@@ -560,6 +565,7 @@ A{
   border-left: 15px solid #B3EE3A;
   border-right: 15px solid #B3EE3A;
   background-color: #CAFF70;
+  border-radius: 25px;
 }
 
 #flight4 {
@@ -735,7 +741,7 @@ A{
 #banner {
   width: 700px;
   height: 200px;
-  background-image: url(images/creature_banner2.png);
+  background-image: url(images/CC_banner1.png);
   float: left;
 }
 
@@ -755,13 +761,16 @@ A{
 }
 
 .text_blk_30 {
-  font-family: 'Happy Monkey', cursive;
+  /*font-family: 'Dosis', sans-serif;*/
+    font-family: 'McLaren', cursive;
+
   font-size: 30px;
   color: #000;
 }
 
 .text_blk_22 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
   font-size: 22px;
   color: #000;
 }
@@ -779,8 +788,9 @@ A{
 }
 
 .text_blk_25 {
-  font-family: 'Nunito', sans-serif;
-  font-size: 25px;
+/*font-family: 'Gorditas', cursive;*/
+  font-family: 'Autour One', cursive;
+  font-size: 28px;
   color: #000;
 }
 .text_white_30 {
@@ -797,6 +807,7 @@ font-family: 'Happy Monkey', cursive;
 
 .text_yellow_30_bold {
   font-family: 'Happy Monkey', cursive;
+
   font-size: 30px;
   color: #ffff00;
   font-weight: bold;
@@ -891,8 +902,10 @@ font-family: 'Happy Monkey', cursive;
 }
 
 .text_blue_20 {
- font-family: 'Nunito', sans-serif;
-  font-size: 20px;
+ /*font-family: 'Nunito', sans-serif;*/
+ font-family: 'Dosis', sans-serif;
+ font-weight: 700;
+  font-size: 23px;
   color: #0000ff;
 }
 
@@ -954,7 +967,7 @@ font-family: 'Happy Monkey', cursive;
   height: 100px;
   float: left;
   padding-left: 30px;
-  padding-left: 30px;
+  padding-bottom: 30px;
 }
 
 #try {
@@ -962,13 +975,13 @@ position:relative;
   width: 290px;
   height: 50px;
   float: left;
-  margin-top:0px;
+  margin-top: -30px;
   padding-left: 30px;
   padding-left: 30px;
 }
 
 .try{
-font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: 'McLaren', cursive;
 font-size:45px;
 text-align: left;
 color: red;
@@ -1004,6 +1017,7 @@ color: red;
   border-right: 10px solid #00cc00;
     margin-bottom: 50px;
         background-image: url(images/slides9.png);
+        border-radius: 15px;
 
 }
 
@@ -1018,36 +1032,10 @@ color: red;
   border-bottom: 10px solid #8B8878;
   border-left: 10px solid #CDB38B;
   border-right: 10px solid #CDB38B;
-   
+    border-radius: 15px;
   
 }
-#slides5cat{
-  width: 260px;
-  height: 430px;
-  
-  float: left;
-  border-top: 10px solid #FFF8DC;
-  border-bottom: 10px solid #8B8878;
-  border-left: 10px solid #CDB38B;
-  border-right: 10px solid #CDB38B;
-    margin-bottom: 50px;
-  margin-left: 40px;
-  
-    /*background-image: url(images/cat.png);*/
-  
-}
-#slides_cat  {
-  width: 260px;
-  height: 430px;
-  background-color: #17e917;
-  float: left;
-  border-top: 10px solid #00ff00;
-  border-bottom: 10px solid #00ff00;
-  border-left: 10px solid #00cc00;
-  border-right: 10px solid #00cc00;
-    margin-bottom: 50px;
-    background-image: url(images/cat.png);
-}
+
 
 
 #slides_panda  {
@@ -1061,6 +1049,7 @@ color: red;
   border-right: 10px solid #00cc00;
     margin-bottom: 50px;
     background-image: url(images/panda.png);
+     border-radius: 15px;
 }
 
 #slides_penguin1 {
@@ -1074,6 +1063,7 @@ color: red;
   border-right: 10px solid #00cc00;
     margin-bottom: 50px;
     background-image: url(images/penguin_puzzle1.png);
+     border-radius: 15px;
 }
 
 #slides_empty{
@@ -1086,6 +1076,7 @@ color: red;
   border-left: 10px solid #00cc00;
   border-right: 10px solid #00cc00;
     margin-bottom: 50px;
+     border-radius: 15px;
 
 }
 
@@ -1207,21 +1198,33 @@ color: red;
 
 
 .question  {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 35px;
+  /*font-family: 'ABeeZee', sans-serif;*/
+  /*font-family: 'Nunito', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
+  /*font-family: 'Gorditas', cursive;*/
+  font-size: 43px;
   text-align: left;
+  font-weight: 700;
   color: #0972f4;
 
 }
 
-.answer {
+/*.answer {
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 36px;
   text-align: left;
   color: #0972f4;
+}*/
+
+.answer {
+  font-family: 'McLaren', cursive;
+  font-size: 36px;
+  text-align: left;
+  color: #0972f4;
 }
+
 li {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: 'McLaren', cursive;
   font-size: 40px;
   text-align: left;
   color: #b416ef;
@@ -1321,9 +1324,9 @@ li {
 }
 
 #score {
-  width: 65px;
-  height: 30px;
-  margin:15px;
+  width: 80px;
+  /*height: 30px;*/
+  margin:10px;
   padding-top: 10px;
   padding-left: 10px;
   float: left;
@@ -1333,13 +1336,15 @@ li {
   border-left: 10px solid #00cc00;
   border-right: 10px solid #00cc00;
    background-color: #66ff66;
+   border-radius: 15px;
 }
 
 
 #score_5 {
   width: 75px;
-  height: 25px;
+  height: 20px;
   padding-left: 0px;
+  padding-top: 5px;
   float: left;
     text-align: center;
   border-top: 5px solid #00ff00;
@@ -1347,6 +1352,7 @@ li {
   border-left: 5px solid #00cc00;
   border-right: 5px solid #00cc00;
    background-color: #66ff66;
+    border-radius: 10px;
 }
 
 
@@ -1354,7 +1360,8 @@ li {
   width: 55px;
   height: 40px;
   float: left;
-  font-family: tahoma;
+   font-family: 'Autour One', cursive;
+  /*font-family: tahoma;*/
   font-size: 1.8em;
   font-weight:bold;
   color: red;
@@ -1364,6 +1371,7 @@ li {
   border-right: 10px solid #00cc00;
    background-color: #66ff66;
    text-align: center;
+   border-radius: 15px;
 }
 
 #bottom {
@@ -1445,6 +1453,7 @@ li {
   border-left: 5px solid #00cc00;
   border-right: 5px solid #00cc00;
    background-color: #00ffff;
+   border-radius: 15px;
 }
 
 
@@ -1472,18 +1481,19 @@ li {
 #next_button {
   width: 205px;
   height: 45px;
-  border-top: 10px solid #ff9999;
-  border-bottom: 10px solid #990033;
-  border-left: 10px solid #cc0033;
-  border-right: 10px solid #cc0033;
+  border-top: 8px solid #ff9999;
+  border-bottom: 8px solid #990033;
+  border-left: 8px solid #cc0033;
+  border-right: 8px solid #cc0033;
   background-color: #ff0000;
-  margin-top: 220px;
+  margin-top: 240px;
   margin-left:20px;
   text-align: center;
   float: left;
   display: none;
   z-index: 5;
   position: absolute;
+  border-radius: 11px;
 }
 
 #start_button {
@@ -1686,7 +1696,7 @@ width:100px;
    z-index: 11;
   position: absolute;
 display: none;
-
+ border-radius: 25px;
  
 }
 
@@ -1707,6 +1717,7 @@ display: none;
    z-index: 11;
   position: absolute;
 display: none;
+ border-radius: 25px;
 
  
 }
