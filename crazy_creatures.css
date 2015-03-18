@@ -1510,6 +1510,7 @@ li {
   float: left;
   z-index: 5;
   position: absolute;
+  border-radius: 15px;
 }
 
 #drag_elephant1 {
